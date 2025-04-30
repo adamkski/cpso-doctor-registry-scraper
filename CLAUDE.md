@@ -8,7 +8,6 @@ This project scrapes doctor data from the College of Physicians and Surgeons of 
 ## Commands
 - Run scraper: `python code/scrape-cpso.py`
 - Combine results: `python code/combine-scrapes.py`
-- Validate data: `Rscript code/validation.R`
 
 ## Code Style Guidelines
 - **Python**:
@@ -19,11 +18,6 @@ This project scrapes doctor data from the College of Physicians and Surgeons of 
   - Use pandas for data manipulation
   - Handle HTTP errors with appropriate retries and error messages
   - Use tqdm for progress indication in long-running tasks
-
-- **R**:
-  - Use tidyverse conventions with pipe operators (`|>`)
-  - Load libraries at the top of scripts
-  - Use the `here` package for file path management
 
 ## Data Organization
 - Store raw scraping results in JSON files by postal code
