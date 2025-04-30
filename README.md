@@ -16,7 +16,7 @@ This project follows an iterative workflow to find all doctors in the CPSO regis
    ```bash
    python code/scrape-cpso.py --input-file data/search-criteria/FSA-LDU0.json
    ```
- The data will automatically be saved in subfolders of `data`.
+   The data will automatically be saved in subfolders of `data`.
 
 3. **Create summarized outputs:**
    ```bash
