@@ -14,9 +14,9 @@ This project follows an iterative workflow to find all doctors in the CPSO regis
 
 2. **Scrape the CPSO registry:**
    ```bash
-   python code/scrape-cpso.py --input-file data/search-criteria/initial_postal_codes.json
+   python code/scrape-cpso.py --input-file data/search-criteria/FSA-LDU0.json
    ```
-   The output directory will be automatically set to `data/initial_postal_codes/`.
+ The data will automatically be saved in subfolders of `data`.
 
 3. **Create summarized outputs:**
    ```bash
